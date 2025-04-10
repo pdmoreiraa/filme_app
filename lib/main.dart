@@ -74,7 +74,14 @@ sorteiaFilme()
             
             
             ElevatedButton(onPressed:sorteiaFilme,style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromRGBO(187,132 , 147, 1),fixedSize: const Size(250, 75)), child: const Text("Sorteio!!!",style: TextStyle(color: Color.fromRGBO(73, 36, 62, 1),fontSize:30,fontWeight: FontWeight.bold),),),
+                backgroundColor: const Color.fromRGBO(187,132 , 147, 1),
+                fixedSize: const Size(250, 75)), child: const Text("Sorteio!!!",
+                style: TextStyle(color: Color.fromRGBO(73, 36, 62, 1),
+                fontSize:30,
+                fontWeight: FontWeight.bold
+                ),
+                ),
+                ),
            Visibility(
   visible: mostrarFilme,
   child:Expanded(child: Column( 
@@ -109,7 +116,7 @@ sorteiaFilme()
                 style: const TextStyle(color: Color.fromRGBO(112, 66, 100, 1), 
                                   fontSize:25, 
                                   fontWeight: FontWeight.w400),),
-            Text(filmeSorteado.writers,
+            Text(filmeSorteado.writer,
                 style: const TextStyle(color: Color.fromRGBO(112, 66, 100, 1), 
                                   fontSize:25, 
                                   fontWeight: FontWeight.w400),),

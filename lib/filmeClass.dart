@@ -6,7 +6,7 @@ class Filmes {
   late String genre;
   late String director;
   late String actors;
-  late String writers;
+  late String writer;
   late String plot;
 
   Filmes()  {
@@ -17,7 +17,7 @@ class Filmes {
     genre = "";
     director = "";
     actors = "";
-    writers= ""; 
+    writer= ""; 
     plot = "";
   }
 
@@ -29,7 +29,7 @@ class Filmes {
   this.genre, 
   this.director, 
   this.actors, 
-  this.writers, 
+  this.writer , 
   this.plot
   );
 
@@ -41,7 +41,7 @@ class Filmes {
         genre = json['Genre'] as String,
         director = json['Director'] as String,
         actors= json['Actors'] as String,
-        writers= json['Writers'] as String,
+        writer= json['Writer'] as String,
         plot= json['Plot'] as String;
 
         Map<String, dynamic> toJson() => {
@@ -52,7 +52,7 @@ class Filmes {
         'Genre': genre,
         'Director': director,
         'Actors': actors,
-        'Writers': writers,
+        'Writer': writer,
         'Plot': plot,
         };
 }
