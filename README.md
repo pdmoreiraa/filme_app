@@ -6,4 +6,4 @@ Projeto de um aplicativo desenvolvido em Dart, que realiza a leitura, carregamen
 https://github.com/pdmoreiraa/filme_app/wiki/Desenvolvimento
 
 <h2>Descrição do Arquivo JSON</h2>
-https://github.com/pdmoreiraa/filme_app/wiki/Descri%C3%A7%C3%A3o-Arquivo-JSON
+https://github.com/pdmoreiraa/filme_app/wiki/Descricao-Arquivo-JSON
