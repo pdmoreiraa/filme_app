@@ -1,3 +1,4 @@
-# filme
+# Lista de Filmes de Fantasia
+<h3>Integrantes: Maria Luiza e Pedro Moreira</h3>
+Projeto de um aplicativo desenvolvido em Dart, que realiza a leitura, carregamento e exibição de dados de um arquivo JSON contendo informações sobre filmes de fantasia, apresentando-os na tela de forma aleatória, simulando um sorteio.
 
-A new Flutter project.
